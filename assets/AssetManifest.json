@@ -1,1 +1,8 @@
-{"assets/images/kylipp.png":["assets/images/kylipp.png"],"assets/images/me.jpg":["assets/images/me.jpg"],"assets/images/milestone.png":["assets/images/milestone.png"],"packages/cupertino_icons/assets/CupertinoIcons.ttf":["packages/cupertino_icons/assets/CupertinoIcons.ttf"]}
+{
+  "images/kylipp.png": ["images/kylipp.png"],
+  "images/me.jpg": ["images/me.jpg"],
+  "images/milestone.png": ["images/milestone.png"],
+  "packages/cupertino_icons/assets/CupertinoIcons.ttf": [
+    "packages/cupertino_icons/assets/CupertinoIcons.ttf"
+  ]
+}
