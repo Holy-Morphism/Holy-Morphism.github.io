@@ -8,10 +8,12 @@
   /* Fonts */
   --font1: "Roboto", sans-serif;
   --font2: "Roboto Mono", monospace;
+
+  --fade-in-ani: pulse 2s ease-in 0s forwards;
 }
 
 body {
-  animation: pulse 2s ease-in 0s forwards;
+  animation: var(--fade-in-ani);
   margin: 2% 5%;
   padding: 2% 5%;
 }
@@ -76,6 +78,7 @@ a {
 }
 
 .project {
+  animation: var(--fade-in-ani);
   margin: 10px;
   padding: 10px;
   text-align: center;
@@ -105,6 +108,7 @@ a {
   0% {
     background-color: var(--2nd);
     color: transparent;
+    opacity: 0;
   }
 
   50% {
@@ -113,6 +117,7 @@ a {
   100% {
     background-color: var(--4th);
     color: var(--2nd);
+    opacity: 1;
   }
 }
 
