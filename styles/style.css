@@ -20,23 +20,28 @@ body {
 
 h1 {
   font-family: var(--font1);
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 h2 {
   font-family: var(--font2);
 }
 
+h3 {
+  font-family: var(--font1);
+}
+
 p {
   font-family: var(--font2);
 }
 
-intro {
-  font-family: var(--font2);
-  font-size: 3rem;
-}
+/* Introduction */
 
+#intro {
+  height: 100vh;
+}
 .typed {
+  margin-right: 10px;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: 0.5em solid var(--2nd); /* The typwriter cursor */
   white-space: nowrap;
@@ -47,6 +52,50 @@ intro {
 
 .container {
   width: max-content;
+}
+
+/* Projects */
+
+#projects-section {
+  height: 100vh;
+  display: inline;
+}
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-title {
+  display: flex;
+  flex-wrap: wrap;
+  text-indent: 10px;
+  align-items: center;
+}
+
+.project {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  height: 250px;
+  width: 450px;
+  height: max-content;
+  width: max-content;
+  text-align: left;
+  background-color: var(--4th);
+  border: 1px solid var(--2nd);
+}
+
+.project img {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.project:hover {
+  box-shadow: 0 0 10px var(--2nd);
 }
 
 /* Animations */
