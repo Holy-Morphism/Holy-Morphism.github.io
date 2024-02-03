@@ -23,6 +23,7 @@ body {
 h1 {
   font-family: var(--font1);
   font-size: 4rem;
+  margin: 0;
 }
 
 h2 {
@@ -90,16 +91,13 @@ a {
   text-align: left;
   background-color: var(--4th);
   border: 1px solid var(--2nd);
+  box-shadow: 0 0 10px var(--2nd);
 }
 
 .project img {
   height: 100px;
   width: 100px;
   border-radius: 10px;
-}
-
-.project:hover {
-  box-shadow: 0 0 10px var(--2nd);
 }
 
 /* Animations */
