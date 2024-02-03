@@ -12,8 +12,8 @@
 
 body {
   animation: pulse 2s ease-in 0s forwards;
-  margin: 5%;
-  padding: 5%;
+  margin: 2% 5%;
+  padding: 2% 5%;
 }
 
 /* Text styles */
@@ -37,9 +37,6 @@ p {
 
 /* Introduction */
 
-#intro {
-  height: 100vh;
-}
 .typed {
   margin-right: 10px;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
