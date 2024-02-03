@@ -35,6 +35,10 @@ p {
   font-family: var(--font2);
 }
 
+a {
+  color: var(--2nd);
+}
+
 /* Introduction */
 
 .typed {
