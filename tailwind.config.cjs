@@ -2,7 +2,11 @@
 export default {
   content: ["./*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        JetBrainsMono: ["JetBrainsMono"],
+      },
+    },
   },
   plugins: [],
 };
