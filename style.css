@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cursor-dot {
+  width: 5px;
+  height: 5px;
+  background-color: #9290c3;
+}
+
+.cursor-outline {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #535c91;
+}
+
+.cursor-dot,
+.cursor-outline {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 1;
+  pointer-events: none;
+}

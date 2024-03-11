@@ -1,126 +1,39 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-
-    <!--Stylesheets-->
-
-    <link rel="stylesheet" href="styles/style.css" />
-
-    <!--Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- Icons -->
-
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="resources/icons/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="resources/icons/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="resources/icons/favicon-16x16.png"
-    />
-    <link rel="manifest" href="resources/icons/site.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Adeel' Portfolio</title>
   </head>
-  <body>
-    <!-- Introduction -->
-
-    <section id="intro">
-      <h1>Rana Adeel Tahir</h1>
-      <h2>
-        <a href="https://github.com/Holy-Morphism/" title="GitHub Repository">
-          <i class="fa-brands fa-github"></i
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/ranaadeeltahir/"
-          title="LinkedIn Profile"
-        >
-          <i class="fa-brands fa-linkedin"></i
-        ></a>
-        <a
-          href="resources/downloads/cv.pdf"
-          title="Rana Adeel Tahir's CV"
-          download
-          ><i class="fa-solid fa-file-arrow-down"></i>
-        </a>
-      </h2>
-      <div class="container">
-        <h2 class="typed">A Flutter Developer</h2>
-      </div>
-      <div>
+  <body
+    class="cursor-none absolute top-0 z-[-2] w-screen bg-[#070F2B] bg-[radial-gradient(#535C91_1px,#070F2B_1px)] bg-[size:20px_20px]"
+  >
+    <!-- custom cursor -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+    <main class="h-svh">
+      <nav class="flex flex-row p-5 text-[#9290C3] justify-between">
+        <h1 class="text-4xl font-JetBrainsMono">HOLYMORPHISM</h1>
+        <ul class="flex flex-row justify-evenly items-end mx-2">
+          <li class="mx-5 text-2xl font-JetBrainsMono">About</li>
+          <li class="mx-5 text-2xl font-JetBrainsMono">Experience</li>
+          <li class="mx-5 text-2xl font-JetBrainsMono">Projects</li>
+        </ul>
+      </nav>
+      <div
+        class="flex items-center text-[#9290C3] text-5xl my-auto px-20 font-JetBrainsMono h-96"
+      >
         <p>
-          I have accumulated a breadth of knowledge and <br />
-          skills across various domains, honing a <br />
-          versatile skill set over time.
+          Hi,my name is Adeel Tahir <br />
+          I design and develop <span id="typewriter">things</span>
         </p>
       </div>
-    </section>
+    </main>
 
-    <hr />
-    <!-- Projects -->
+    <section class="max-h-screen"></section>
 
-    <section id="projects-section">
-      <div class="container"><h2 class="typed">Projects</h2></div>
-      <div id="projects">
-        <div class="project">
-          <div class="project-title">
-            <img src="resources/images/waveshotz.jpg" alt="WaveShotzz Image" />
-            <h3>
-              WaveShotzz
-              <a
-                href="https://github.com/Holy-Morphism/WaveShotzz"
-                title="GitHub Repository"
-              >
-                <i class="fa-brands fa-github"></i
-              ></a>
-            </h3>
-          </div>
-          <p>
-            <strong>Flutter|Firebase|Clean Architecture|TDD</strong> <br />
-            A fully scalable social networking<br />
-            app built with neumorphic design<br />
-          </p>
-        </div>
-        <div class="project">
-          <div class="project-title">
-            <img src="resources/images/milestone.jpg" alt="MileStone AI." />
-            <h3>
-              MileStone AI.
-              <a
-                href="https://play.google.com/store/apps/details?id=com.holymorphism.milestoneai"
-                title="Playstore Link"
-              >
-                <i class="fa-brands fa-google-play"></i
-              ></a>
-            </h3>
-          </div>
-          <p>
-            <strong>Flutter|Firebase|Clean Architecture</strong><br />
-            2023 Created a AI Journaling app using <br />
-            the OpenAi's ChatGPT API.
-          </p>
-        </div>
-      </div>
-    </section>
-    <!-- Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/20de187547.js"
-      crossorigin="anonymous"
-    ></script>
+    <script type="module" src="/main.js"></script>
   </body>
 </html>
