@@ -24,3 +24,13 @@
   z-index: 1;
   pointer-events: none;
 }
+
+@layer base {
+  @font-face {
+    font-family: "JetBrainsMono";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./public/fonts/JetBrainsMono-Regular.ttf");
+  }
+}
