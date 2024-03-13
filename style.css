@@ -31,6 +31,6 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url("./public/fonts/JetBrainsMono-Regular.ttf");
+    src: url("/fonts/JetBrainsMono-Regular.ttf");
   }
 }

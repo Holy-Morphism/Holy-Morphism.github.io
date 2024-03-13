@@ -58,3 +58,12 @@ function type() {
 }
 
 type();
+
+const button = document.querySelector(
+  '[data-collapse-toggle="navbar-default"]'
+);
+const menu = document.getElementById("navbar-default");
+
+button.addEventListener("click", () => {
+  menu.classList.toggle("hidden");
+});
