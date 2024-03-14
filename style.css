@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.cursor-dot {
+/* .cursor-dot {
   width: 5px;
   height: 5px;
   background-color: #9290c3;
@@ -23,7 +23,7 @@
   border-radius: 50%;
   z-index: 1;
   pointer-events: none;
-}
+} */
 
 @layer base {
   @font-face {
