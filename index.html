@@ -17,14 +17,16 @@
     <title>Adeel' Portfolio</title>
   </head>
   <body
-    class="text-TertiaryColor2 font-JetBrainsMono absolute top-0 z-[-2] w-screen bg-Primary bg-[radial-gradient(#535C91_1px,#070F2B_1px)] bg-[size:20px_20px]"
+    class="m-0 p-0 text-TertiaryColor2 font-JetBrainsMono absolute top-0 z-[-2] w-screen overflow-x-hidden bg-Primary bg-[radial-gradient(#535C91_1px,#070F2B_1px)] bg-[size:20px_20px]"
   >
     <!-- custom cursor -->
     <!-- <div class="cursor-dot" data-cursor-dot></div>
     <div class="cursor-outline" data-cursor-outline></div> -->
 
     <!-- Navbar -->
-    <nav class="flex flex-row justify-between p-2 m-2">
+    <nav
+      class="max-w-full flex flex-row justify-between items-baseline p-2 m-2 md:m-5 bg-Secodary rounded-lg lg:rounded-xl"
+    >
       <h1 class="text-3xl font-bold">HOLYMORPHISM</h1>
       <button
         data-collapse-toggle="navbar-default"
@@ -51,23 +53,36 @@
         </svg>
       </button>
 
-      <div class="hidden absolute md:relative md:block" id="navbar-default">
+      <div
+        class="hidden left-0 right-0 absolute md:relative md:block md:min-w-fit md:px-5 md:mx-5"
+        id="navbar-default"
+      >
         <ul
-          class="text-2xl flex flex-col justify-evenly font-light mt-10 my-5 items-start absolute md:relative md:flex-row md:m-1 md:justify-evenly md:gap-5"
+          class="text-2xl flex flex-col justify-evenly font-semibold my-14 p-5 items-start bg-Primary w-80 rounded-lg border-8 border-Secodary absolute md:relative md:flex-row md:m-1 md:justify-evenly md:gap-5 md:border-none md:bg-Secodary md:p-0"
         >
-          <li class="my-1"><a href="#">About</a></li>
-          <li class="my-1"><a href="#projects">Projects</a></li>
-          <li class="my-1"><a href="#">Experience</a></li>
+          <li class="my-1"><a href="#about">ABOUT</a></li>
+          <li class="my-1"><a href="#projects">PROJECTS</a></li>
+          <li class="my-1"><a href="#">EXPERIENCE</a></li>
         </ul>
       </div>
     </nav>
 
-    <main class="h-screen flex flex-row justify-start items-center m-5 p-5">
-      <span class="h-1/2 text-4xl">
-        Hi,my name is Adeel Tahir<br />
-        I develop
-        <span id="typewriter" class="w-screen"></span>
-      </span>
+    <main
+      class="h-full flex flex-row items-center justify-evenly m-5 p-5 flex-wrap"
+    >
+      <img
+        class="rounded-full m-1 w-80 h-auto border-4 border-TertiaryColor1"
+        src="/images/me.jpg"
+        alt="Rana Adeel Tahir's Picture"
+      />
+
+      <div class="h-52 text-4xl my-5">
+        <span>
+          Hi,my name is Adeel Tahir<br />
+          I develop</span
+        >
+        <div id="typewriter" class="md:inline"></div>
+      </div>
     </main>
 
     <!-- Project Section -->
@@ -161,7 +176,7 @@
 
     <!-- Footer section -->
 
-    <footer></footer>
+    <footer id="about"></footer>
 
     <script type="module" src="/main.js"></script>
   </body>
